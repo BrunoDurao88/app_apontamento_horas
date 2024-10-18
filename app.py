@@ -88,13 +88,13 @@ def update_timer():
 # Start the Tkinter UI construction with the updated background color, resized fields, and logo placeholder
 root = tk.Tk()
 root.title("Registro de Tempo")
-root.geometry("410x450")
+root.geometry("400x450")
 root.config(bg="#D3D3D3")  # Light gray background
 
 # Logo (configurable to accept an image)
-logo = PhotoImage(file="Imagem\Cronometro_preto.png")  # Replace with your image path
+logo = PhotoImage(file="Imagem\Logo_SDD_verde_Escuro3.png")  # Replace with your image path
 logo_label = tk.Label(root, image=logo, bg="#D3D3D3")
-logo_label.place(x=320, y=10)  # Positioning in the top right corner
+logo_label.place(x=140, y=362)  # Positioning in the top right corner
 
 # Fields
 tk.Label(root, text="Nome:", bg="#D3D3D3").pack(anchor="w", padx=10)
